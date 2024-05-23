@@ -27,7 +27,3 @@ app.post('/create-checkout-session', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server listening on http://localhost:${port}`);
 });
-
-// Docs: https://docs.stripe.com/api/payment_intents/object
-// Repo: https://github.com/niiicolai/10b_integrate_with_payment
-// https://docs.stripe.com/payments/checkout
