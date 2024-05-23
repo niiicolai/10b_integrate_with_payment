@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <div>
+          <h3>Sunglasses</h3>
+          <h5>$20.00</h5>
+        </div>
+      </div>
+
+      <form action="/create-checkout-session" method="POST">
+        <input type="number" name="quantity" value="1" min="1" />
+        <button type="submit">Checkout</button>
+      </form>
+    </section>
+  </body>
+</html>
